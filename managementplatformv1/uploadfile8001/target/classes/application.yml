@@ -1,0 +1,155 @@
+##部署使用
+#server:
+#  port: 8001
+#
+#eureka:
+#  client:
+#    #表示是否将自己注册进eurekaServer
+#    register-with-eureka: true
+#    #是否从eurekaServer提取已有的注册信息，默认为true,单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://eeureka:7001/eureka/
+##      ,http://eureka7002.com:7002/eureka/
+##      defaultZone: http://localhost:7001/eureka
+#  instance:
+#    prefer-ip-address: true
+#
+#spring:
+#  application:
+#    name: cloud-uploadFile-service
+#    #    druid,myBatis,mysql整合
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://rm-bp1m95o3lvxzaxbzoho.mysql.rds.aliyuncs.com:3306/earthquake?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+#    username: earthquake
+#    password: Root123!
+#
+#data-source:
+#  earthquake-info: 501
+#  li:
+#    - 101
+#    - 102
+#    - 103
+#    - 104
+#    - 105
+#    - 106
+#    - 201
+#    - 204
+#    - 302
+#    - 303
+#    - 304
+#    - 305
+#    - 401
+#    - 402
+#    - 502
+#    - 503
+#  prediction-li:
+#    - 202
+#    - 203
+#    - 301
+#
+#file:
+#  save-path: /opt/localSave
+#  pic-save-path: picture
+#
+#ftp:
+#  base-path: /
+#  relative-pic-path: picture
+#  address: 47.114.126.71
+#  port: 21
+#  username: DataInput
+#  password: Chen654321
+#
+#mybatis:
+#  mapper-locations: classpath:mapper/*
+#  type-aliases-package: com.earthquake.managementPlatform.entities
+#
+#disasterInfoCode:
+#  url: http://CLOUD-DISASTERINFOCODE-SEVICE
+#
+#informationStorage:
+#  url: http://CLOUD-STORAGEINFORMATION-SEVICE
+#
+#nginx:
+#  ip: 39.99.228.199
+#  pic-path: localSave
+
+##开发使用
+server:
+  port: 8001
+
+eureka:
+  client:
+    #表示是否将自己注册进eurekaServer
+    register-with-eureka: true
+    #是否从eurekaServer提取已有的注册信息，默认为true,单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+#      ,http://eureka7002.com:7002/eureka/
+#      defaultZone: http://localhost:7001/eureka
+#  instance:
+#    prefer-ip-address: true
+
+spring:
+  application:
+    name: cloud-uploadFile-service
+    #    druid,myBatis,mysql整合
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-bp1m95o3lvxzaxbzoho.mysql.rds.aliyuncs.com:3306/earthquake?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: earthquake
+    password: Root123!
+
+data-source:
+  earthquake-info: 501
+  li:
+    - 101
+    - 102
+    - 103
+    - 104
+    - 105
+    - 106
+    - 201
+    - 204
+    - 302
+    - 303
+    - 304
+    - 305
+    - 401
+    - 402
+    - 502
+    - 503
+  prediction-li:
+    - 202
+    - 203
+    - 301
+
+file:
+  save-path: /Users/wencychen/Downloads
+  pic-save-path: picture
+
+ftp:
+  base-path: /
+  relative-pic-path: picture
+  address: 47.114.126.71
+  port: 21
+  username: DataInput
+  password: Chen654321
+
+mybatis:
+  mapper-locations: classpath:mapper/*
+  type-aliases-package: com.earthquake.managementPlatform.entities
+
+disasterInfoCode:
+  url: http://CLOUD-DISASTERINFOCODE-SEVICE
+
+informationStorage:
+  url: http://CLOUD-STORAGEINFORMATION-SEVICE
+
+nginx:
+  ip: 39.99.228.199
+  pic-path: localSave

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.earthquake.managementPlatform.mapper.OnOffMapper">
+    <select id="getReadingFiles"  resultType="boolean">
+        SELECT status FROM earthquake.on_off where name = "ReadingFiles";
+    </select>
+    <update id="StartReadingFiles">
+        UPDATE `earthquake`.`on_off` SET `status` = '1' WHERE (`name` = 'ReadingFiles');
+    </update>
+    <update id="StopReadingFiles">
+        UPDATE `earthquake`.`on_off` SET `status` = '0' WHERE (`name` = 'ReadingFiles');
+    </update>
+</mapper>

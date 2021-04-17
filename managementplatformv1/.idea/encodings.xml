@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/cloudEurekaServer7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudEurekaServer7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudEurekaServer7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudEurekaServer7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudZuulServer6542/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudZuulServer6542/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dataBackup6005/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dataBackup6005/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/disasterInfoCode8006/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/disasterInfoCode8006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/disasterInfoCode8007/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/disasterInfoCode8007/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/output6001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/output6001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/storageInformation9006/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/storageInformation9006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/storageInformation9007/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/storageInformation9007/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/storageInformation9008/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/storageInformation9008/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/uploadfile8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/uploadfile8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/userManagement5001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/userManagement5001/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

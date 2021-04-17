@@ -1,0 +1,7 @@
+com/earthquake/managementPlatform/entities/AdministrativeRegionCode12Test.class
+com/earthquake/managementPlatform/entities/DisasterInfoCode7Test.class
+com/earthquake/managementPlatform/entities/SequenceCodeTest.class
+com/earthquake/managementPlatform/mapper/AdministrativeRegionCode12MapperTest.class
+com/earthquake/managementPlatform/controller/CodeResourceTest.class
+com/earthquake/managementPlatform/service/DisasterInfoCodeServiceTest.class
+com/earthquake/managementPlatform/entities/EarthquakeCodeByTimeTest.class

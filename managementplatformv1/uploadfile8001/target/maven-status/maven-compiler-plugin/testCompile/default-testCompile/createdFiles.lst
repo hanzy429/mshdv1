@@ -1,0 +1,8 @@
+com/earthquake/managementPlatform/service/AddRecordServiceTest.class
+com/earthquake/managementPlatform/service/DayDateTest.class
+com/earthquake/managementPlatform/service/JsonFileTest.class
+com/earthquake/managementPlatform/service/FtpFileMethodTest.class
+com/earthquake/managementPlatform/service/UploadFileScheduleServiceTest.class
+com/earthquake/managementPlatform/service/MultiMediaMethodServiceTest.class
+com/earthquake/managementPlatform/service/UploadFileServiceTest.class
+com/earthquake/managementPlatform/service/XmlFileTest.class
