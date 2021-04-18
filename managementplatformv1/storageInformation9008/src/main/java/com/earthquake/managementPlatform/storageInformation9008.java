@@ -8,8 +8,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-public class storageInformation9008 {
+public class StorageInformation9008 {
     public static void main(String[] args) {
-        SpringApplication.run(storageInformation9008.class,args);
+        SpringApplication.run(StorageInformation9008.class,args);
     }
 }

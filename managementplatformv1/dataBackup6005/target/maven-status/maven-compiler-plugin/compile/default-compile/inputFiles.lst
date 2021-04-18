@@ -32,6 +32,7 @@
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/entities/CivilStructure.java
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/entities/BasicEarthquakeInfo.java
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/BasicEarthquakeInfoMapper.java
+/Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/DataBackup6005.java
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/entities/DeathStatistics.java
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CollapseRecordMapper.java
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CrackRecordMapper.java
@@ -57,4 +58,3 @@
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/entities/DebrisRecord.java
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CommDisasterMapper.java
 /Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/KarstRecordMapper.java
-/Users/wencychen/Downloads/managementplatformv1/dataBackup6005/src/main/java/com/earthquake/managementPlatform/dataBackup6005.java

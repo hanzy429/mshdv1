@@ -79,13 +79,6 @@ public class BackupService {
     @Transactional
     public boolean backUp(int time){
         try {
-        List<BasicEarthquakeInfo> basicEarthquakeInfos = restTemplate.exchange(storageInformationUrl+"/v1/disasterInfoCopy/"+time,HttpMethod.GET, null, new ParameterizedTypeReference<List<BasicEarthquakeInfo>>(){}).getBody();
-        if(basicEarthquakeInfos.size() > 0) {
-            for (BasicEarthquakeInfo basicEarthquakeInfo : basicEarthquakeInfos) {
-                basicEarthquakeInfoMapper.save(basicEarthquakeInfo);
-                //restTemplate.delete(storageInformationUrl + "/v1/disasterInfo/" + basicEarthquakeInfo.getId());
-            }
-        }
 
         List<DeathStatistics> deathStatisticses = restTemplate.exchange(storageInformationUrl+"/v1/deathStatisticsCopy/"+time,HttpMethod.GET, null, new ParameterizedTypeReference<List<DeathStatistics>>(){}).getBody();
         if(deathStatisticses.size() > 0) {
@@ -270,13 +263,15 @@ public class BackupService {
                     restTemplate.delete(storageInformationUrl + "/v1/disasterPrediction/" + disasterPrediction.getD_ID()+'/'+disasterPrediction.getS_ID());
                 }
             }
-            //List<BasicEarthquakeInfo> basicEarthquakeInfoss = restTemplate.exchange(storageInformationUrl+"/v1/disasterInfoCopy/"+time,HttpMethod.GET, null, new ParameterizedTypeReference<List<BasicEarthquakeInfo>>(){}).getBody();
+
+            List<BasicEarthquakeInfo> basicEarthquakeInfos = restTemplate.exchange(storageInformationUrl+"/v1/disasterInfoCopy/"+time,HttpMethod.GET, null, new ParameterizedTypeReference<List<BasicEarthquakeInfo>>(){}).getBody();
             if(basicEarthquakeInfos.size() > 0) {
                 for (BasicEarthquakeInfo basicEarthquakeInfo : basicEarthquakeInfos) {
-                    //basicEarthquakeInfoMapper.save(basicEarthquakeInfo);
+                    basicEarthquakeInfoMapper.save(basicEarthquakeInfo);
                     restTemplate.delete(storageInformationUrl + "/v1/disasterInfo/" + basicEarthquakeInfo.getId());
                 }
             }
+
         return true;
         }
         catch (Exception e){

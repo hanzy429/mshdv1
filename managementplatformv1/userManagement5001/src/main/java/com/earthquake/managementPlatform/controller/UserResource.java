@@ -4,6 +4,7 @@ package com.earthquake.managementPlatform.controller;
 import com.earthquake.managementPlatform.entities.GetVo;
 import com.earthquake.managementPlatform.entities.PostVo;
 import com.earthquake.managementPlatform.entities.User;
+import com.earthquake.managementPlatform.service.UserInfoUpdateServiceImpl;
 import com.earthquake.managementPlatform.service.UserLoginServiceImpl;
 import com.earthquake.managementPlatform.service.UserRegisterServiceImpl;
 import com.earthquake.managementPlatform.service.UserRemoveServiceImpl;
@@ -27,6 +28,9 @@ public class UserResource {
 
     @Resource
     UserRemoveServiceImpl userRemoveService;
+
+    @Resource
+    UserInfoUpdateServiceImpl userInfoUpdateService;
 
     @PostMapping("/v1/user")
     public PostVo userSignIn(HttpServletRequest request){
@@ -89,6 +93,27 @@ public class UserResource {
         }
         else
             return new PostVo(res,"注销失败",null);
+    }
+
+    @PutMapping("/v1/username/{username}")
+    public PostVo updateUsername(HttpServletRequest request,@PathVariable("username") String username){
+        int res = userInfoUpdateService.updateUsername(request.getParameter("username"),username);
+        if(res == 0 ){
+            return new PostVo(res,"更改用户信息成功!",null);
+        }
+        else
+            return new PostVo(res,"更改用户名失败！原因：用户名重名！",null);
+    }
+
+    @PutMapping("/v1/userpassword/{username}")
+    public PostVo updateUserpassword(HttpServletRequest request,@PathVariable("username") String username){
+        int res = userInfoUpdateService.updatePassword(request.getParameter("password"),username);
+
+        if(res == 0 ){
+            return new PostVo(res,"更改密码成功!",null);
+        }
+        else
+            return new PostVo(res,"更改用户密码失败！请重试！",null);
     }
 
 

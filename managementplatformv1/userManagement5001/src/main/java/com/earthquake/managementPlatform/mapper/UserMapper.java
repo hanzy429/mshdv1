@@ -44,4 +44,18 @@ public interface UserMapper {
     @Delete("DELETE FROM `earthquake`.`user` WHERE `username` = #{username};")
     int deleteByUsername(@Param("username") String username);
 
+    /**
+     * 用户修改用户名
+     * @param newUsername
+     * @param oldUsername
+     * @return
+     */
+    @Update("update earthquake.user set username = #{newUsername} where username = #{oldUsername} ")
+    int updateUsernameInfo(@Param("newUsername") String newUsername,@Param("oldUsername") String oldUsername);
+
+    @Update("update earthquake.user set password = #{password} where username = #{username} ")
+    int updateUserPasswordInfo(@Param("password") String password,@Param("username") String username);
+
+
+
 }

@@ -79,7 +79,7 @@ public class UploadFileScheduleService implements SchedulingConfigurer {
                         log.info("目前无灾情文件");
                     map = uploadFileService.uploadFiles(ftpPredictionFileMethod);
                     if (map != null)
-                        log.info(restTemplate.postForObject(informationStorageUrl + "/v1/informationPredictionStorage", map, PostVo.class).getData().toString());
+                        log.info(restTemplate.postForObject(informationStorageUrl + "/v1/informationPredictionStorage", map, PostVo.class).getMsg().toString());
                     else
                         log.info("目前无灾情预测文件");
                 }

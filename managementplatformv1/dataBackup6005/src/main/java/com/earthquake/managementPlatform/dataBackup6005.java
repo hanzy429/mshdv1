@@ -8,8 +8,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-public class dataBackup6005 {
+public class DataBackup6005 {
     public static void main(String[] args) {
-        SpringApplication.run(dataBackup6005.class,args);
+        SpringApplication.run(DataBackup6005.class,args);
     }
 }

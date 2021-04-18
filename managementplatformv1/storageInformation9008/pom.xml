@@ -106,7 +106,7 @@
                 </executions>
                 <configuration>
                     <includeSystemScope>true</includeSystemScope>
-                    <mainClass>com.earthquake.managementPlatform.storageInformation9008</mainClass>
+                    <mainClass>com.earthquake.managementPlatform.StorageInformation9008</mainClass>
                 </configuration>
             </plugin>
         </plugins>
