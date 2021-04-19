@@ -1,3 +1,4 @@
+
 package com.earthquake.managementPlatform.controller;
 
 import com.earthquake.managementPlatform.entities.DisasterRequest;
@@ -75,18 +76,24 @@ public class DisasterRequestResource {
     }
 
     @GetMapping("/v1/processedDisasterRequest")
-    public GetVo getProcessedDisasterRequest()
+    public GetVo getProcessedDisasterRequest(HttpServletRequest request)
     {
-        List<DisasterRequest> disasterRequest = disasterRequestMapper.getProcessedDisasterRequest();
-        GetVo<DisasterRequest> getVo = new GetVo<>(0,"获取数据成功！",disasterRequest.size(),disasterRequest);
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = disasterRequestMapper.getProcessedDisasterRequest().size();
+        List<DisasterRequest> disasterRequest = disasterRequestMapper.getProcessedDisasterRequestByPage((page-1)*limit,limit);
+        GetVo<DisasterRequest> getVo = new GetVo<>(0,"获取数据成功！",size,disasterRequest);
         return getVo;
     }
 
     @GetMapping("/v1/noProcessedDisasterRequest")
-    public GetVo getNoProcessedDisasterRequest()
+    public GetVo getNoProcessedDisasterRequest(HttpServletRequest request)
     {
-        List<DisasterRequest> disasterRequest = disasterRequestMapper.getNoProcessedDisasterRequest();
-        GetVo<DisasterRequest> getVo = new GetVo<>(0,"获取数据成功！",disasterRequest.size(),disasterRequest);
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = disasterRequestMapper.getNoProcessedDisasterRequest().size();
+        List<DisasterRequest> disasterRequest = disasterRequestMapper.getNoProcessedDisasterRequestByPage((page-1)*limit,limit);
+        GetVo<DisasterRequest> getVo = new GetVo<>(0,"获取数据成功！",size,disasterRequest);
         return getVo;
     }
 
