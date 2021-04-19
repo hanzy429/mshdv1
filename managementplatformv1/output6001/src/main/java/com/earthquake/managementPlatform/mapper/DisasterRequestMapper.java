@@ -46,7 +46,15 @@ public interface DisasterRequestMapper {
     @ResultMap(value = "disasterRequestMap")
     List<DisasterRequest> getProcessedDisasterRequest();
 
+    @Select("SELECT * FROM earthquake.disasterrequest WHERE status = '1' order by date desc limit #{pageNum}, #{limit} FOR UPDATE;")
+    @ResultMap(value = "disasterRequestMap")
+    List<DisasterRequest> getProcessedDisasterRequestByPage(@Param("pageNum") int pageNum,@Param("limit")int limit);
+
     @Select("SELECT * FROM earthquake.disasterrequest WHERE status = '0' FOR UPDATE")
     @ResultMap(value = "disasterRequestMap")
     List<DisasterRequest> getNoProcessedDisasterRequest();
+
+    @Select("SELECT * FROM earthquake.disasterrequest WHERE status = '0' order by date desc limit #{pageNum}, #{limit} FOR UPDATE")
+    @ResultMap(value = "disasterRequestMap")
+    List<DisasterRequest> getNoProcessedDisasterRequestByPage(@Param("pageNum") int pageNum,@Param("limit")int limit);
 }

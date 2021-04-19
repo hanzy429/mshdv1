@@ -7,18 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="storageInformation9008" />
         <module name="dataBackup6005" />
         <module name="output6001" />
         <module name="cloudZuulServer6542" />
-        <module name="storageInformation9006" />
+        <module name="uploadfile8001" />
+        <module name="userManagement5001" />
         <module name="disasterInfoCode8007" />
         <module name="disasterInfoCode8006" />
         <module name="cloudEurekaServer7002" />
         <module name="cloudEurekaServer7001" />
-        <module name="uploadfile8001" />
+        <module name="storageInformation9008" />
         <module name="storageInformation9007" />
-        <module name="userManagement5001" />
+        <module name="storageInformation9006" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
