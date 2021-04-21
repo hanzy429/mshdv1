@@ -4,6 +4,8 @@ import com.earthquake.managementPlatform.entities.User;
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.type.JdbcType;
 
+import java.util.List;
+
 @Mapper
 public interface UserMapper {
     @Select("SELECT * FROM earthquake.user where username=#{username};")
@@ -17,6 +19,14 @@ public interface UserMapper {
             @Result(column="user_type", property="userType", jdbcType= JdbcType.CHAR),
     })
     User getUserByUsername(@Param("username") String username);
+
+    @Select("SELECT * FROM earthquake.user where user_type=2")
+    @ResultMap(value ="disasterInfoMap")
+    List<User> getAdminUserInfo();
+
+    @Select("SELECT * FROM earthquake.user where user_type=2 limit #{pageNum}, #{limit};")
+    @ResultMap(value ="disasterInfoMap")
+    List<User> getAdminUserInfoByPage(@Param("pageNum") int pageNum,@Param("limit")int limit);
 
     @Select("SELECT * FROM earthquake.user where username=#{username} AND password=#{password}")
     @ResultMap(value = "disasterInfoMap")
@@ -55,6 +65,11 @@ public interface UserMapper {
 
     @Update("update earthquake.user set password = #{password} where username = #{username} ")
     int updateUserPasswordInfo(@Param("password") String password,@Param("username") String username);
+
+
+    @Update("update earthquake.user set password = #{password}, username= #{newUsername} where username = #{oldUsername} ")
+    int adminUpdateUserPasswordInfo(@Param("password") String password,@Param("newUsername") String newUsername,@Param("oldUsername") String oldUsername);
+
 
 
 

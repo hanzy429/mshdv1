@@ -4,6 +4,7 @@ package com.earthquake.managementPlatform.controller;
 import com.earthquake.managementPlatform.entities.GetVo;
 import com.earthquake.managementPlatform.entities.PostVo;
 import com.earthquake.managementPlatform.entities.User;
+import com.earthquake.managementPlatform.mapper.UserMapper;
 import com.earthquake.managementPlatform.service.UserInfoUpdateServiceImpl;
 import com.earthquake.managementPlatform.service.UserLoginServiceImpl;
 import com.earthquake.managementPlatform.service.UserRegisterServiceImpl;
@@ -32,6 +33,8 @@ public class UserResource {
     @Resource
     UserInfoUpdateServiceImpl userInfoUpdateService;
 
+    @Resource
+    UserMapper userMapper;
     @PostMapping("/v1/user")
     public PostVo userSignIn(HttpServletRequest request){
         User user = new User();
@@ -116,7 +119,37 @@ public class UserResource {
             return new PostVo(res,"更改用户密码失败！请重试！",null);
     }
 
+    @PutMapping("/v1/adminuserpassword/")
+    public PostVo adminUpdateUserpassword(HttpServletRequest request){
+        int res = userInfoUpdateService.updatePassword(request.getParameter("password"),request.getParameter("username"));
 
+        if(res == 0 ){
+            return new PostVo(res,"更改密码成功!",null);
+        }
+        else
+            return new PostVo(res,"更改用户密码失败！请重试！",null);
+    }
+
+//    @GetMapping("/v1/brickwoodStructure")
+//    public GetVo brickwoodStructureAll(HttpServletRequest request){
+//        int limit = Integer.valueOf(request.getParameter("limit"));
+//        int page = Integer.valueOf(request.getParameter("page"));
+//        int size = brickwoodStructureMapper.getAllBrickwoodStructure().size();
+//        List<BrickwoodStructure> brickwoodStructure = brickwoodStructureMapper.getBrickwoodStructureByPage((page-1)*limit,limit);
+//        GetVo<BrickwoodStructure> getVo = new GetVo<>(0,"获取数据成功！",size,brickwoodStructure);
+//        return getVo;
+//    }
+
+
+    @GetMapping("/v1/adminalluser")
+    public GetVo selectUserAll(HttpServletRequest request){
+        int limit = Integer.valueOf(request.getParameter("limit"));
+        int page = Integer.valueOf(request.getParameter("page"));
+        int size = userMapper.getAdminUserInfo().size();
+        List<User> user = userMapper.getAdminUserInfoByPage((page-1)*limit,limit);
+        GetVo<User> getVo = new GetVo<>(0,"获取数据成功！",size,user);
+        return getVo;
+    }
 
 
 

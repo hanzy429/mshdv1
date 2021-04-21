@@ -24,6 +24,7 @@
     <module>disasterInfoCode8007</module>
       <module>userManagement5001</module>
       <module>cloudZuulServer6542</module>
+      <module>predictionModel7701</module>
   </modules>
   <packaging>pom</packaging>
 
