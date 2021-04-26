@@ -7,121 +7,11 @@
     <list default="true" id="54b4a7d3-a29b-470d-8a2f-28281603307b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/config/ApplicationContextConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/config/MyMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/BrickwoodStructureResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/CivilStructureResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/CollapseRecordResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/CommDisasterResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/CrackRecordResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/DeathStatisticsResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/DebrisRecordResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/FrameworkStructureResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/GasDisasterResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/InformationResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/InjuredStatisticsResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/IrrigationDisasterResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/KarstRecordResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/LandslideRecordResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/MasonryStructureResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/MissingStatisticsResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/OilDisasterResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/OtherRecordResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/OtherStructureResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/PowerDisasterResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/SettlementRecordResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/TrafficDisasterResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/controller/WaterDisasterResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/BasicEarthquakeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/BrickwoodStructure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/CivilStructure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/CollapseRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/CommDisaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/CrackRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/DeathStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/DebrisRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/FrameworkStructure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/GasDisaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/GetVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/InjuredStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/IrrigationDisaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/KarstRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/LandslideRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/LifeLineStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/MasonryStructure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/MissingStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/OilDisaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/OtherRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/OtherStructure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/PersonStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/PostVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/PowerDisaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/ProvEarthquakeFrequency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/SecondaryDisasterStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/SettlementRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/SquareStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/TrafficDisaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/entities/WaterDisaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/BasicEarthquakeInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/BrickwoodStructureMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/CivilStructureMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/CollapseRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/CommDisasterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/CrackRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/DeathStatisticsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/DebrisRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/FrameworkStructureMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/GasDisasterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/InjuredStatisticsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/IrrigationDisasterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/KarstRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/LandslideRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/MasonryStructureMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/MissingStatisticsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/OilDisasterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/OtherRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/OtherStructureMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/PowerDisasterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/SettlementRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/TrafficDisasterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/mapper/WaterDisasterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/BasicEarthquakeInformationStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/BrickwoodStructureStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/CivilStructureStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/CodeDescriptionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/CodeDescriptionOfResourceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/CodeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/CodeOfResourceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/CollapseRecordStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/CommDisasterStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/CrackRecordStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/DeathStatisticsStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/DebrisRecordStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/DisasterInfoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/DisasterInformationStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/DisasterInformationStorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/FrameworkStructureStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/GasDisasterStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/InjuredStatisticsStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/IrrigationDisasterStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/KarstRecordStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/LandslideRecordStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/MasonryStructureStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/MissingStatisticsStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/OilDisasterStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/OtherRecordStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/OtherStructureStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/PowerDisasterStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/SettlementRecordStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/TrafficDisasterStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/service/WaterDisasterStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInformation9007/target/classes/com/earthquake/managementPlatform/storageInformation9007.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userManagement5001/src/main/java/com/earthquake/managementPlatform/controller/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/src/main/java/com/earthquake/managementPlatform/controller/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userManagement5001/src/main/java/com/earthquake/managementPlatform/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/src/main/java/com/earthquake/managementPlatform/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userManagement5001/target/classes/com/earthquake/managementPlatform/controller/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/target/classes/com/earthquake/managementPlatform/controller/UserResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userManagement5001/target/classes/com/earthquake/managementPlatform/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/target/classes/com/earthquake/managementPlatform/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictionModel7701/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictionModel7701/src/main/java/com/earthquake/managementPlatform/PredictionModel7701.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictionModel7701/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +104,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.storageInformation9006">
+  <component name="RunManager" selected="Spring Boot.UserManagement5001">
     <configuration name="DataBackup6005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dataBackup6005" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.DataBackup6005" />
@@ -511,6 +401,12 @@
       <workItem from="1618815799708" duration="8227000" />
       <workItem from="1618883978888" duration="4752000" />
       <workItem from="1618897460841" duration="8754000" />
+      <workItem from="1618989420602" duration="2311000" />
+      <workItem from="1619141649014" duration="1635000" />
+      <workItem from="1619145303357" duration="3097000" />
+      <workItem from="1619236581797" duration="1288000" />
+      <workItem from="1619319504939" duration="4176000" />
+      <workItem from="1619421771680" duration="2655000" />
     </task>
     <servers />
   </component>
@@ -535,13 +431,13 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="469" y="183" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.797@0.23.1440.797" timestamp="1618279024918" />
-    <state width="1293" height="230" key="GridCell.Tab.0.bottom" timestamp="1618913110791">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1024" height="170" key="GridCell.Tab.0.bottom" timestamp="1619430685903">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1002" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616588583109" />
-    <state width="1293" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618913110791" />
-    <state width="1024" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618585962229" />
-    <state width="1024" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618890271591" />
+    <state width="1293" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618997112440" />
+    <state width="1024" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619426359012" />
     <state width="1002" height="289" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1618540227990" />
     <state width="1002" height="289" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1618541072812" />
     <state width="1002" height="289" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1618304854060" />
@@ -550,16 +446,14 @@
     <state width="1002" height="289" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1617289064774" />
     <state width="1002" height="352" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1617196891024" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1611986105855" />
-    <state width="958" height="206" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610340201895" />
-    <state width="958" height="206" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1610340156765" />
     <state width="1002" height="305" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1616588678526" />
-    <state width="1293" height="230" key="GridCell.Tab.0.center" timestamp="1618913110791">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1024" height="170" key="GridCell.Tab.0.center" timestamp="1619430685903">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1002" height="305" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1616588583109" />
-    <state width="1293" height="230" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618913110791" />
-    <state width="1024" height="271" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618585962229" />
-    <state width="1024" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618890271591" />
+    <state width="1293" height="230" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618997112440" />
+    <state width="1024" height="170" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619426359012" />
     <state width="1002" height="289" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1618540227989" />
     <state width="1002" height="289" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1618541072812" />
     <state width="1002" height="289" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1618304854060" />
@@ -568,16 +462,14 @@
     <state width="1002" height="289" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1617289064773" />
     <state width="1002" height="352" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1617196891023" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1611986105855" />
-    <state width="958" height="206" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1610340201894" />
-    <state width="958" height="206" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1610340156765" />
     <state width="1002" height="305" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1616588678525" />
-    <state width="1293" height="230" key="GridCell.Tab.0.left" timestamp="1618913110791">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1024" height="170" key="GridCell.Tab.0.left" timestamp="1619430685902">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1002" height="305" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1616588583108" />
-    <state width="1293" height="230" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618913110791" />
-    <state width="1024" height="271" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618585962229" />
-    <state width="1024" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618890271591" />
+    <state width="1293" height="230" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618997112440" />
+    <state width="1024" height="170" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685902" />
+    <state width="1024" height="170" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619426359012" />
     <state width="1002" height="289" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1618540227988" />
     <state width="1002" height="289" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1618541072812" />
     <state width="1002" height="289" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1618304854059" />
@@ -586,16 +478,14 @@
     <state width="1002" height="289" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1617289064773" />
     <state width="1002" height="352" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1617196891023" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1611986105854" />
-    <state width="958" height="206" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1610340201894" />
-    <state width="958" height="206" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1610340156764" />
     <state width="1002" height="305" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1616588678522" />
-    <state width="1293" height="230" key="GridCell.Tab.0.right" timestamp="1618913110791">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1024" height="170" key="GridCell.Tab.0.right" timestamp="1619430685903">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1002" height="305" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1616588583109" />
-    <state width="1293" height="230" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618913110791" />
-    <state width="1024" height="271" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618585962229" />
-    <state width="1024" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618890271591" />
+    <state width="1293" height="230" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618997112440" />
+    <state width="1024" height="170" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619426359012" />
     <state width="1002" height="289" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1618540227989" />
     <state width="1002" height="289" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1618541072812" />
     <state width="1002" height="289" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1618304854060" />
@@ -604,16 +494,14 @@
     <state width="1002" height="289" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1617289064774" />
     <state width="1002" height="352" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1617196891024" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1611986105855" />
-    <state width="958" height="206" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1610340201894" />
-    <state width="958" height="206" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1610340156765" />
     <state width="1002" height="305" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1616588678526" />
-    <state width="1293" height="230" key="GridCell.Tab.1.bottom" timestamp="1618913110791">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1024" height="170" key="GridCell.Tab.1.bottom" timestamp="1619430685903">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1002" height="305" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616588583111" />
-    <state width="1293" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618913110791" />
-    <state width="1024" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618585962229" />
-    <state width="1024" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618890271592" />
+    <state width="1293" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618997112441" />
+    <state width="1024" height="170" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619426359013" />
     <state width="1002" height="289" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1618540227991" />
     <state width="1002" height="289" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1618541072813" />
     <state width="1002" height="289" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1618304854062" />
@@ -621,16 +509,14 @@
     <state width="1002" height="289" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1617293430713" />
     <state width="1002" height="289" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1617289064775" />
     <state width="1002" height="352" key="GridCell.Tab.1.bottom/0.23.1440.811@0.23.1440.811" timestamp="1617196891026" />
-    <state width="958" height="206" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610340201895" />
-    <state width="958" height="206" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1610340156766" />
     <state width="1002" height="305" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1616588678528" />
-    <state width="1293" height="230" key="GridCell.Tab.1.center" timestamp="1618913110791">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1024" height="170" key="GridCell.Tab.1.center" timestamp="1619430685903">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1002" height="305" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1616588583110" />
-    <state width="1293" height="230" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618913110791" />
-    <state width="1024" height="271" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618585962229" />
-    <state width="1024" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1618890271591" />
+    <state width="1293" height="230" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618997112441" />
+    <state width="1024" height="170" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1619426359013" />
     <state width="1002" height="289" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1618540227990" />
     <state width="1002" height="289" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1618541072813" />
     <state width="1002" height="289" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1618304854061" />
@@ -638,16 +524,14 @@
     <state width="1002" height="289" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1617293430712" />
     <state width="1002" height="289" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1617289064775" />
     <state width="1002" height="352" key="GridCell.Tab.1.center/0.23.1440.811@0.23.1440.811" timestamp="1617196891025" />
-    <state width="958" height="206" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1610340201895" />
-    <state width="958" height="206" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1610340156766" />
     <state width="1002" height="305" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1616588678527" />
-    <state width="1293" height="230" key="GridCell.Tab.1.left" timestamp="1618913110791">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1024" height="170" key="GridCell.Tab.1.left" timestamp="1619430685903">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1002" height="305" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1616588583110" />
-    <state width="1293" height="230" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618913110791" />
-    <state width="1024" height="271" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618585962229" />
-    <state width="1024" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1618890271591" />
+    <state width="1293" height="230" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618997112441" />
+    <state width="1024" height="170" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1619426359013" />
     <state width="1002" height="289" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1618540227990" />
     <state width="1002" height="289" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1618541072813" />
     <state width="1002" height="289" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1618304854061" />
@@ -655,16 +539,14 @@
     <state width="1002" height="289" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1617293430712" />
     <state width="1002" height="289" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1617289064774" />
     <state width="1002" height="352" key="GridCell.Tab.1.left/0.23.1440.811@0.23.1440.811" timestamp="1617196891025" />
-    <state width="958" height="206" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1610340201895" />
-    <state width="958" height="206" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1610340156765" />
     <state width="1002" height="305" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1616588678527" />
-    <state width="1293" height="230" key="GridCell.Tab.1.right" timestamp="1618913110791">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1024" height="170" key="GridCell.Tab.1.right" timestamp="1619430685903">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1002" height="305" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1616588583110" />
-    <state width="1293" height="230" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618913110791" />
-    <state width="1024" height="271" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618585962229" />
-    <state width="1024" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618890271591" />
+    <state width="1293" height="230" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618997112441" />
+    <state width="1024" height="170" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619426359013" />
     <state width="1002" height="289" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1618540227991" />
     <state width="1002" height="289" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1618541072813" />
     <state width="1002" height="289" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1618304854061" />
@@ -672,8 +554,6 @@
     <state width="1002" height="289" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1617293430713" />
     <state width="1002" height="289" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1617289064775" />
     <state width="1002" height="352" key="GridCell.Tab.1.right/0.23.1440.811@0.23.1440.811" timestamp="1617196891025" />
-    <state width="958" height="206" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1610340201895" />
-    <state width="958" height="206" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1610340156766" />
     <state width="1002" height="305" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1616588678528" />
     <state x="335" y="128" key="NewModule_or_Project.wizard" timestamp="1616816724011">
       <screen x="0" y="23" width="1440" height="797" />
@@ -684,12 +564,12 @@
     </state>
     <state x="161" y="0" width="1093" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618560781145" />
     <state x="151" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1616816979968" />
-    <state x="-1344" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1618897482897">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1619423246005">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-1344" y="304" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618897482897" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1618570213043" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1618883982479" />
+    <state x="-1344" y="304" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619141649006" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619423246005" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1619145304109" />
     <state x="505" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1611803056536">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

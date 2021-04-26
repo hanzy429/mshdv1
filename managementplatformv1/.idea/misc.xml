@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/managementInformation9002/pom.xml" />
+        <option value="$PROJECT_DIR$/predictionModel7701/pom.xml" />
         <option value="$PROJECT_DIR$/storageInformation9001/pom.xml" />
       </set>
     </option>
