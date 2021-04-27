@@ -108,6 +108,10 @@ public class InformationResource {
         GetVo<BasicEarthquakeInfo> getVo = new GetVo<>(0,"获取基本灾情数据成功！",size,disasterInfos);
         return getVo;
     }
+    @GetMapping("v1/getalldisasterinfo")
+    public List<BasicEarthquakeInfo> getallDisasterInfo(){
+        return basicEarthquakeInfoMapper.getAllDisasterInfo();
+    }
 
     @GetMapping("/v1/disasterInfoCopy/{time}")
     public List<BasicEarthquakeInfo> disasterInfoCopy(@PathVariable("time") int time){
